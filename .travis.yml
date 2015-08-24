@@ -8,3 +8,4 @@ before_install:
 - docker pull debian
 script:
   - docker run --rm -it debian ls
+  - exit 1
